@@ -20,5 +20,5 @@ http:
       timeout: 10
 script-providers:
   KuWoMusic:
-    url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kw.js
+    url: https://raw.githubusercontent.com/ly661/status/main/kw.js
     interval: 86400
