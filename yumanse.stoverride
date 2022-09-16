@@ -1,0 +1,28 @@
+#!name=欲漫涩解锁会员漫画&视频
+#!desc=欲漫涩解锁会员漫画&视频
+
+name: 欲漫涩解锁会员漫画&视频
+desc: 欲漫涩解锁会员漫画&视频
+http:
+  mitm:
+    - 'zjgeo.eqobc.com, xnour.xonap.com, opzzy.kefsww.com, tqrbq.mpckv.com'
+  script:
+    - match: ^https?:\/\/.*\.com\/api\/app\/user\/info$
+      name: PornComicsCrack
+      type: response
+      require-body: true
+      timeout: 10
+      
+    - match: ^https?:\/\/.*\.com\/api\/app\/media
+      name: PornVideosCrack
+      type: request
+      require-body: true
+      timeout: 10
+script-providers:
+  PornComicsCrack:
+    url: https://raw.githubusercontent.com/yqc007/QuantumultX/master/PornComicsCrack.js
+    interval: 86400
+    
+  PornVideosCrack:
+    url: https://raw.githubusercontent.com/yqc007/QuantumultX/master/PornVideosCrack.js
+    interval: 86400
