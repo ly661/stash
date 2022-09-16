@@ -10,7 +10,7 @@ http:
     - "opzzy.kefsww.com"
     - "tqrbq.mpckv.com"
   script:
-    - match: ^https?:\/\/.*\.com\/api\/app\/user\/info
+    - match: ^https?:\/\/.*\.com\/api\/app\/user\/info$
       name: PornComicsCrack
       type: response
       require-body: true
