@@ -5,7 +5,10 @@ name: 欲漫涩解锁会员漫画&视频
 desc: 欲漫涩解锁会员漫画&视频
 http:
   mitm:
-    - 'zjgeo.eqobc.com, xnour.xonap.com, opzzy.kefsww.com, tqrbq.mpckv.com'
+    - "zjgeo.eqobc.com"
+    - "xnour.xonap.com"
+    - "opzzy.kefsww.com"
+    - "tqrbq.mpckv.com"
   script:
     - match: ^https?:\/\/.*\.com\/api\/app\/user\/info$
       name: PornComicsCrack
