@@ -23,7 +23,7 @@ http:
       timeout: 10
 script-providers:
   PornComicsCrack:
-    url: https://raw.githubusercontent.com/yqc007/QuantumultX/master/PornComicsCrack.js
+    url: https://raw.githubusercontent.com/ly661/stash/main/PornComicsCrack.js
     interval: 86400
     
   PornVideosCrack:
