@@ -3,4 +3,4 @@ var body = {
   "msg" : "succ",
   "code" : 1001
 }
-$done({body});
+$done(body: JSON.stringify(body),);
