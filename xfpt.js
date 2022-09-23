@@ -2,5 +2,10 @@ var body = {
   "result" : 1000,
   "msg" : "succ",
   "code" : 1001
-}
-$done(body: JSON.stringify(body),);
+};
+
+var obj = JSON.stringify(body);
+console.log(obj);
+$done({
+  body: obj,
+})
